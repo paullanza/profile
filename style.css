@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Oswald:wght@300&display=swap');
+
+body {
+  background-color: #FEFCFB;
+  font-family: 'Oswald', sans-serif;
+  color: #001F54;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.img-circle {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border: 2px #0A1128;
+  border-radius: 50%;
+}
+
+.btn-grey {
+  border: 1px solid #034078;
+  border-radius: 4px;
+  padding: 4px 4px;
+}
+
+h1 {
+  font-family: 'Noto Sans', sans-serif;
+  color: #0A1128;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: 'Noto Sans', sans-serif;
+  color: #0A1128;
+  font-size: 18px;
+}
+
+a {
+  background-color: #034078;
+  color: #FEFCFB;
+  text-decoration: none;
+  padding: 4px;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+a:hover {
+  background-color: #FEFCFB;
+  color: #0A1128;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  display: inline-block;
+  font-size: larger;
+  padding: 0px 20px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  margin: 80px;
+  padding-bottom: 20px;
+  background: #1282A2;
+  border: 1px #0A1128;
+  border-style: solid;
+  border-radius: 4px;
+  box-shadow: 3px 3px #0A112840;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
